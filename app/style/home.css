@@ -1,0 +1,16 @@
+.header {
+    height: 80px;
+    position: fixed;
+}
+
+.main {
+    margin-top: 60px;
+    height: 100%;
+}
+
+.sidebar {
+    position: fixed;
+}
+
+.calendar-screen {
+}
