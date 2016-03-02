@@ -9,42 +9,52 @@
 
     <body>
 
-        <div class="row header">
-            <div class="col s12 header blue lighten-5">
-                <!-- Header here -->
-                <h3>Header</h3>
-            </div>
-        </div>
+        <!-- Empty rows for space - DO NOT DELETE! For some reason
+        the header disappears if these two rows are deleted (and I have
+        no idea why...)-->
 
-        <!-- Empty rows for space -->
-        <div class="row spacer"></div>
-        <div class="row spacer"></div>
 
         <div class="row main">
-            <div class="col s3 sidebar blue lighten-5">
-                <h3>Sidebar</h3>
-                <p>Test Data</p>
-                <p>Test Data</p>
-                <p>Test Data</p>
-                <p>Test Data</p>
-                <p>Test Data</p>
-                <p>Test Data</p>
-                <p>Test Data</p>
-                <p>Test Data</p>
-                <p>Test Data</p>
-                <p>Test Data</p>
-                <p>Test Data</p>
-                <p>Test Data</p>
-                <p>Test Data</p>
-                <p>Test Data</p>
-                <p>Test Data</p>
-                <p>Test Data</p>
-                <p>Test Data</p>
+            <div class="col s3 sidebar z-depth-1">
+                <div class="row"></div>
             </div>
 
-            <div class="col s9 push-s3 calendar-screen">
-                <h3>Calendar</h3>
-            </div>
+            <div class="col s9 push-s3 calendar-screen z-depth-0">
+
+                <!-- Actual Calendar is shown here -->
+
+                    <!-- Header row with hour times -->
+                    <div class="row calendar-row" id="time-headers">
+                        <div class="col s2 calendar-column" id="hour-0"><h5>0800</h5></div>
+                        <div class="col s2 calendar-column" id="hour-1"><h5>0900</h5></div>
+                        <div class="col s2 calendar-column" id="hour-2"><h5>1000</h5></div>
+                        <div class="col s2 calendar-column" id="hour-3"><h5>1100</h5></div>
+                        <div class="col s2 calendar-column" id="hour-4"><h5>1200</h5></div>
+                        <div class="col s2 calendar-column" id="hour-5"><h5>1300</h5></div>
+                    </div>
+                    <!-- Monday row -->
+                    <div class="row calendar-row" id="monday">
+                    </div>
+                    <!-- Tuesday row -->
+                    <div class="row calendar-row" id="tueday">
+                    </div>
+                    <!-- Wednesday row -->
+                    <div class="row calendar-row" id="wednesday">
+                    </div>
+                    <!-- Thursday row -->
+                    <div class="row calendar-row" id="thursday">
+                    </div>
+                    <!-- Friday row -->
+                    <div class="row calendar-row" id="friday">
+                    </div>
+                    <!-- Saturday row -->
+                    <div class="row calendar-row" id="saturday">
+                    </div>
+                    <!-- Sunday row -->
+                    <div class="row calendar-row" id="sunday">
+                    </div>
+
+
         </div>
 
         <!-- Scripts below here -->
